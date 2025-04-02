@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-primary bg-opacity-50">
+    <div class="card p-5 m-5 border-0 shadow">
+        <div class="card-body text-center">
+            <h1 class="card-title fw-bold display-2">Quote of the Day</h1>
+            <p class="card-text fw-bold fs-3 pt-4 pb-4">Press the button below to recieve a random quote!</p>
+            <button onclick=quoteClick() id="quote-btn" type="button" class="btn btn-primary px-4 fw-bold fs-4">Quote</button>
+            <p id="quote" class="quote pt-5 fw-bold fs-3"></p>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+<!-- <html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مولّد الاقتباسات العشوائية</title>
+</head>
+<body style="text-align: center; font-family: Arial, sans-serif; padding: 50px;">
+
+    <h1>📜 اقتباس عشوائي</h1>
+    <p id="quote">اضغط على الزر للحصول على اقتباس جديد</p>
+    <button id="new-quote">🎲 عرض اقتباس جديد</button>
+
+    <script>
+        const quotes = [
+            "لا تتوقف عن الحلم، فالأحلام وقود الحياة. - والت ديزني",
+            "من يجرؤ على إضاعة ساعة من وقته لا يدرك قيمة الحياة. - تشارلز داروين",
+            "إن لم تحاول، فلن تحقق أي شيء. - مايكل جوردان",
+            "العقل هو كل شيء، ما تفكر فيه، تصبحه. - بوذا",
+            "النجاح ليس مفتاح السعادة، السعادة هي مفتاح النجاح. - ألبرت شفايتزر"
+        ];
+
+        document.getElementById("new-quote").addEventListener("click", function() {
+            let randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById("quote").textContent = quotes[randomIndex];
+        });
+    </script>
+
+</body>
+</html> -->
